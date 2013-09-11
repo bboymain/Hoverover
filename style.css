@@ -771,8 +771,8 @@ body {
   transition: all 0.2s ease;
 }
 .info-box {
-  width: 400px;
-  height: 400px;
+  width: 379px;
+  height: 388px;
   position: relative;
   display: block;
   text-align: center;
@@ -826,8 +826,8 @@ body {
   display: block;
   position: absolute;
   top: 0;
-  width: 400px;
-  height: 400px;
+  width: 379px;
+  height: 388px;
 }
 /* -----------------------------------------------------------------------------------------------------\
 TO MAKE IT PRETTY - DELETE THIS - TO MAKE IT PRETTY - DELETE THIS - TO MAKE IT PRETTY - DELETE THIS

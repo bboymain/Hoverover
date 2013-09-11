@@ -1,0 +1,74 @@
+.col {
+  .transition(all, .2s);
+}
+
+.info-box {
+  width: 400px;
+    height: 400px;
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 0; /* Fixes inline-block "spacing" */
+  overflow: hidden;
+  
+  &:before {
+    content: '';
+    display: inline-block;
+    padding-top: 100%;
+    vertical-align: middle;
+    background: red;
+  }
+  
+  &__header {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    opacity: 0;
+    vertical-align: middle;
+    max-width: @col-8;
+    padding: 12px;
+    background: @color-brand;
+    
+    .transition(opacity, .3s);
+    color: @color-white;
+    font-weight: normal;
+    font-size: 1.2rem; /* Setting a font-size again */
+    -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
+            box-shadow: 0 @shadow-length 0 0 @shadow;
+    text-shadow: 0 @shadow-length 0 @shadow;
+  }
+  
+  &__overlay {
+    position: absolute;
+    z-index: 1;
+   background: rgba(15, 133, 241, 0.5);
+    padding: 50%;
+    top: 0;
+    opacity: 0;
+    
+    
+    .transition(opacity, .2s);
+  }
+  
+  &:hover &__header,
+  &:hover &__overlay {
+    opacity: 1;
+  }
+  
+  &__img {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* -----------------------------------------------------------------------------------------------------\
+TO MAKE IT PRETTY - DELETE THIS - TO MAKE IT PRETTY - DELETE THIS - TO MAKE IT PRETTY - DELETE THIS
+\------------------------------------------------------------------------------------------------------*/
+
+.transition(@properties: all, @time: 1s, @ease: ease) {
+    -webkit-transition: @properties @time @ease;
+    transition: @properties @time @ease;
+}

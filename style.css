@@ -796,7 +796,7 @@ body {
   vertical-align: middle;
   max-width: 66.666%;
   padding: 12px;
-  background: #1abc9c;
+  background: #2680CC;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
   color: #ecf0f1;
@@ -813,7 +813,7 @@ body {
   height: 384px;
   position: absolute;
   z-index: 1;
-  background: rgba(15, 133, 241, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 50%;
   top: 0;
   opacity: 0;

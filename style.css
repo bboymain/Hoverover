@@ -809,6 +809,8 @@ body {
   text-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 .info-box__overlay {
+  width: 379px;
+  height: 384px;
   position: absolute;
   z-index: 1;
   background: rgba(15, 133, 241, 0.5);

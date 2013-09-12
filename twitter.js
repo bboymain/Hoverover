@@ -2461,7 +2461,7 @@ __twttrlr(function (using, provide, loadrunner, define) {
                                 t = b.one(N, r, "DIV"),
                                 n = b.one(C, r, "DIV");
                             t ? u = e.offsetHeight + t.offsetHeight : u = e.offsetHeight, n.style.cssText = "height:" + (s.height - u - 2) + "px", s.noscrollbar && s.hideStreamScrollBar()
-                        }, 500), s.sandbox.frame.style.cssText = "", s.sandbox.frame.width = s.width, s.sandbox.frame.height = s.height, s.sandbox.frame.style.border = "none", s.sandbox.frame.style.maxWidth = "100%", s.sandbox.frame.style.minWidth = s.dimensions.MIN_WIDTH + "px"
+                        }, 500), s.sandbox.frame.style.cssText = "", s.sandbox.frame.width = s.width, s.sandbox.frame.height = s.height, s.sandbox.frame.style.border = "none", s.sandbox.frame.style.maxWidth = "100%", s.sandbox.frame.style.minWidth = s.dimensions.MIN_WIDTH + "%"
                     }, this.callsWhenSandboxReady(f)(), this.srcEl && this.srcEl.parentNode && this.srcEl.parentNode.removeChild(this.srcEl), r
                 },
                 render: function (e, t) {

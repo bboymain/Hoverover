@@ -1,0 +1,37 @@
+#jqeasypanel{
+	position: fixed;
+	left: 0;
+	color: #FFFFFF;
+	width: 100%;
+	height: 80px;
+	background: #0085C7;
+	padding: 10px;
+	overflow: visible;
+	display: none;
+	z-index: 1;
+}
+#jqeasypanel.top{
+	top:0;
+	border-bottom:1px solid #666;
+}
+#jqeasypaneloptions {
+	float:right;
+	margin:-10px 95px 0 0;
+}
+#jqeasytrigger {
+	position: fixed;
+	right: 5px;
+	padding: 10px;
+	width: 100px;
+	height: 20px;
+	background-color: #000;
+	text-align: center;
+	font-size: 14px;
+	z-index: 99999999;
+}
+#jqeasytrigger a.open {
+	display:block;
+}
+#jqeasytrigger a.close {
+	display:none;	
+}

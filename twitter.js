@@ -2421,16 +2421,15 @@ __twttrlr(function (using, provide, loadrunner, define) {
             I.prototype = new t, m.aug(I.prototype, {
                 renderedClassNames: "twitter-timeline twitter-timeline-rendered",
                 dimensions: {
-                    DEFAULT_HEIGHT: "600",
-                    DEFAULT_WIDTH: "379",
-                    NARROW_WIDTH: "379",
-                    MIN_WIDTH: "180",
-                    MIN_HEIGHT: "200",
-                    WIDE_MEDIA_PADDING: 81,
-                    NARROW_MEDIA_PADDING: 16,
-                    WIDE_MEDIA_PADDING_CL: 60,
-                    NARROW_MEDIA_PADDING_CL: 12
-                },
+         DEFAULT_HEIGHT: "600",
+            DEFAULT_WIDTH: "100", // modify this to be 100 - like 100%
+            NARROW_WIDTH: "100", // modify this to be 100 - like 100%
+            MIN_WIDTH: "100", // modify this to be 100 - like 100%
+            MIN_HEIGHT: "200", 
+            WIDE_MEDIA_PADDING: 81,
+            NARROW_MEDIA_PADDING: 16,
+            WIDE_MEDIA_PADDING_CL: 60,
+            NARROW_MEDIA_PADDING_CL: 12 },
                 create: function (e) {
                     var n = this.sandbox.doc.createElement("div"),
                         r, s = this,
